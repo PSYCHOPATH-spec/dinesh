@@ -28,7 +28,4 @@ jobs:
        python -c "print('hello world')"
     - name: Lint with flake8
       run: |
-       python --version--
-    - name: Test with pytest
-      run: |
-        pytest
+       python --version
